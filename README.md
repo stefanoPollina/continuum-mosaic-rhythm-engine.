@@ -16,7 +16,7 @@ Uploaded audio can be used as a **ONE SHOT** (triggered by sequencer steps), a *
 
 ## Selected Track Voice Designer
 
-Select a track to shape its sound without affecting other tracks. The designer provides voice templates, an audition button and controls grouped into **Strike / Transient**, **Resonant Body**, **Timbre / Tail**, and **Sample Layer**. Changes influence audition and sequenced playback. The designer remains stationary beside the internally scrolling Sound Sources panel.
+Select a track to shape its sound without affecting other tracks. The designer provides voice templates, an audition button and controls grouped into **Strike / Transient**, **Resonant Body**, **Timbre / Tail**, **Sample Layer**, and **Drippy filter**. The drippy filter is a per-hit resonant sweep with a droplet ping, for water-drop, bubble and wet squelch tones. Changes influence audition and sequenced playback. The designer remains stationary beside the internally scrolling Sound Sources panel.
 
 ## Rhythm Sequencer
 
@@ -36,6 +36,6 @@ The **Track Mixer** provides independent level, pitch, pan and low-pass-filter c
 
 ## Technical notes
 
-The audio path combines sample and/or synthesised voice generation with per-track gain, pan and filtering, optional shared effects and master output. Sequencing is separate from audio routing to support later integration with Continuum Mosaic.
+The audio path combines sample and/or synthesised voice generation, an optional per-hit drippy filter, per-track gain, pan and filtering, optional shared effects and master output. Sequencing is separate from audio routing to support later integration with Continuum Mosaic.
 
 This is a developing prototype, not a finished commercial drum-machine emulation. The original Continuum Mosaic application remains separate and unchanged.
